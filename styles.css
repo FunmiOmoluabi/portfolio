@@ -151,22 +151,33 @@ body {
   color: #fff;
   margin-bottom: 10px;}
 
-
-
+p
+{
+  color: red;
+}
 /* ===== FOOTER =====*/
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  background-color: var(--second-color);
+  color: bisque;
   text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
 }
-p {
-    color: red;
-
-width:after 100%;
-  background-color: yellow (0, 0, 0, 0.5);
-  color: beige
-
+.footer__title 
+{
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+p
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color:red;
+  margin: 0 var(--mb-2);
+}
+.footer__copy {
+  font-size: var(--smaller-font-size);
+}
  
-
-}
